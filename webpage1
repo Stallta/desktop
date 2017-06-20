@@ -1,0 +1,160 @@
+<!DOCTYPEhtml>
+<metacharset="UTF-8"/>
+<metaname="description content="dogs and puppies">
+<metaname="keyword" content="puppies, dogs, cute">
+<metaname="author" content="Taylah Stallan">
+<title> MY WEB PAGE ON DOGS AND PUPPIES </title>
+<head>
+	<link rel="stylesheet" media="screen" href="http://www.csszengarden.com/039/039.css">
+<style>
+H1{
+font-family:comic sans MS;
+text-align: center;
+}
+
+</style>
+<H1>WELCOME TO MY WEB PAGE ABOUT DOGS AND PUPPIES</H1>
+<body bgcolor="#E6E6FA">
+</head>
+<body>
+<H3><i>20 DOG AND PUPPY FACTS!</i></H3>
+<style>
+div{ 
+text-align: justify;
+}
+</style>
+
+<div>
+On this page you will find interesting facts about dogs and puppies you might not know.
+You will also find a few picture a cute puppies with the first picture linked to a website so you can see more cute pictures.
+Below you will also find an link to the Westminster School website and my email address.
+</div>
+
+<ol>
+<li>An adult dog has 42 teeth.</li>
+
+<li>A dog’s sense of smell is more than 1 million times stronger than that of a person.</li>
+
+<li>More than 1 in 3 families in the United States owns a dog.</li>
+
+<li>Spaying or neutering your dog can help prevent certain types of cancer.</li>
+
+<li>If never spayed or neutered, a pair of dogs can produce 66,000 puppies in 6 years.</li>
+
+<li>A dog’s sense of hearing is more than 10 times more accurate than that of a person.</li>
+
+<li>The average dog can run about 19 miles per hour at full speed.</li>
+
+<li>Dogs are mentioned 14 times in the Bible.</li>
+
+<li>A dog’s nose print is one of a kind, very similar to a person’s fingerprint.</li>
+
+<li>The average body temperature for a dog is 101.2.</li>
+
+<li>With an average lifespan of just over 11 years, the typical dog costs $13,500.</li>
+
+<li>The only sweat glands a dog has are between its toes.</li>
+
+<li>Dogs are omnivorous; they need to eat more than just meat.</li>
+
+<li>Dogs have twice as many ear muscles as people.</li>
+
+<li>Dogs will be submissive to anyone they feel is higher up in the pack.</li>
+
+<li>People have been keeping dogs for pets for 12,000 years.</li>
+
+<li>A female dog carries her puppies for about 60 days before they are born.</li>
+
+<li>It is a myth dogs are color blind; they actually see color, just not as vividly as a person.</li>
+
+<li>Obesity is the number-one health problem in dogs.</li>
+
+<li>Seventy percent of people sign their pets name on greeting/holiday cards.</li>
+
+
+<p>Below are cute pictures of puppies.
+Click on the first picture to to see more cute puppies.</p>
+<a href= "https://thewondrous.com/cute-puppy-pictures/">
+<img src="https://s-media-cache-ak0.pinimg.com/736x/95/2a/04/952a04ea85a8d1b0134516c52198745e.jpg" alt= "Go to The 50 Cutest Puppy Pictures of All Time"></img>
+<img src="https://s-media-cache-ak0.pinimg.com/736x/c2/3d/f8/c23df8d247f509c4b1d680dd5406f325.jpg"></img>
+<img src="http://images5.fanpop.com/image/photos/31100000/cute-puppies-puppies-and-more-31104113-1024-768.jpg"></img>
+<p><a href="http://www.westminster.sa.edu.au/Pages/Home.aspx" target="_blank">westminster.sa.edu.au</a></p>
+
+<p><address>
+Written by <a href="mailto:TStallan@westminster.sa.edu.au">Taylah Stallan</a>.
+</address></P>
+
+<style>
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: clear;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: blue;
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Click Me</button> 
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+
+
+</script>
+
+<form action="file:///C:/Users/stallta/Documents/2017/Digital%20Technologies/webpage1.html" method="POST">
+Name: <input type="text" size="40" name="">
+ <input type="submit" value="Submit">
+
+
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=3">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+  <h1>Thanks for visting my webpage!</h1>  
+</div>
+
+<body>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/loapuo8QlYw?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+</body>
+
+
+
+
+
+
+
+</html>
